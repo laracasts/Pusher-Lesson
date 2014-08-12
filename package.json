@@ -1,0 +1,8 @@
+{
+  "volo": {
+    "dependencies": {
+      "jquery": "github:jquery/jquery/2.1.1",
+      "handlebars": "github:wycats/handlebars.js/v1.3.0"
+    }
+  }
+}
