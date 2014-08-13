@@ -1,7 +1,7 @@
 <?php
 
 // Put this in a service provider
-App::bind('Pusher', function($app) {
+App::singleton('Pusher', function($app) {
     $keys = $app['config']->get('services.pusher');
 
     return new Pusher(
