@@ -13,7 +13,7 @@
         this.notify = function(message) {
             var template = Handlebars.compile($('#flash-template').html());
 
-            $(template({ message: 'Hello World'})).appendTo('body').fadeIn(300);
+            $(template({ message: message})).appendTo('body').fadeIn(300);
         }
     };
 
